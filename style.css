@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'gabarito','sans-serif';
+}
+
+.navbar {
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    border-bottom: solid rgb(4, 0, 0) 1px;
+    gap: 20px;
+    align-items:center;
+
+}
+
+.navbar__s1__title {
+    color: rgb(95, 95, 95);
+}
+.navbar__s2{
+    padding: 10px;
+    border :solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    font-size: 15px;
+    width: 100%;
+}
+.navbar__s2 input focu{
+    outline:none;
+} 
+.navbar__s3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 2px;
+    justify-content: space-around;
+}
+.categories p{
+    background-color:rgb(170, 255, 42) ;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 30px;
+}
+.sale-image img{
+    width: 100%;
+}
+.recomanded{
+    padding: 10px;
+
+}
+.recomanded_container{
+    display: flex;
+    justify-content: space-between; 
+   gap: 10px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   flex-basis: 100px;
+}
+
+.course-card{
+    width: 450px;
+
+}
+.course-card img{
+    height: 60%;
+    width: 100%;
+}
+
+.topics{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+   
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px;
+    
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
